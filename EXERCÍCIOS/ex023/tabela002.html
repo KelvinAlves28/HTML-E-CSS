@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            position: relative;
+            width: 500px;
+            border-collapse: collapse;
+        }
+        caption{
+            font-size: 1.5em;
+            font-weight: bold;
+            padding: 10px;
+            background-color: lightgray;
+        }
+        td, th{
+            border: 1px solid black;
+            padding: 10px;
+        }
+        thead, tfoot{
+            background-color: rgb(49, 49, 49);
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(49, 49, 49);
+        }
+        td.numero{
+            text-align: right;
+        }
+        /*linhas impares*/
+        tbody > tr:nth-child(odd){
+            background-color: white;
+        }
+        /*linhas pares*/
+        tbody > tr:nth-child(even){
+            background-color: rgb(216, 216, 216);
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES
+        TABLE
+            CAPTION
+            THEAD
+                TR TD TH
+            TBODY
+                TR TD TH
+            TFOOT
+                TR TD TH
+    -->
+    <table>
+        <caption>População das Unidade Federativas</caption>
+        <thead>
+            <tr>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 100px;">População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">44.420.459</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">20.538.718</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">16.054.524</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="numero">14.136.417</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th scope="row">Total de habitantes</th>
+                <td class="numero"><strong>95.150.118</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quae temporibus eligendi quibusdam asperiores, sapiente veniam consequatur aliquid tempore praesentium vel, adipisci modi, nisi numquam facere optio officia fugit. Eum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos deserunt, excepturi impedit vero tempore. Iusto impedit maiores vitae voluptatem nemo delectus, et dolore itaque asperiores magnam, architecto adipisci numquam.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio harum eius corrupti voluptatem, itaque est, veritatis quasi quisquam maiores libero tempora! Fuga rem laudantium officia adipisci praesentium perspiciatis esse.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis vero enim ex sit similique, provident praesentium magni vitae, laudantium reprehenderit animi architecto beatae deleniti rem impedit ut dolor blanditiis porro?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet pariatur beatae deserunt neque, ullam minima corporis aut sapiente a. Eius aliquam ab dignissimos magnam nemo numquam voluptate, optio minus consequuntur?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quae temporibus eligendi quibusdam asperiores, sapiente veniam consequatur aliquid tempore praesentium vel, adipisci modi, nisi numquam facere optio officia fugit. Eum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos deserunt, excepturi impedit vero tempore. Iusto impedit maiores vitae voluptatem nemo delectus, et dolore itaque asperiores magnam, architecto adipisci numquam.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio harum eius corrupti voluptatem, itaque est, veritatis quasi quisquam maiores libero tempora! Fuga rem laudantium officia adipisci praesentium perspiciatis esse.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis vero enim ex sit similique, provident praesentium magni vitae, laudantium reprehenderit animi architecto beatae deleniti rem impedit ut dolor blanditiis porro?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet pariatur beatae deserunt neque, ullam minima corporis aut sapiente a. Eius aliquam ab dignissimos magnam nemo numquam voluptate, optio minus consequuntur?
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia quae temporibus eligendi quibusdam asperiores, sapiente veniam consequatur aliquid tempore praesentium vel, adipisci modi, nisi numquam facere optio officia fugit. Eum.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quos deserunt, excepturi impedit vero tempore. Iusto impedit maiores vitae voluptatem nemo delectus, et dolore itaque asperiores magnam, architecto adipisci numquam.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil odio harum eius corrupti voluptatem, itaque est, veritatis quasi quisquam maiores libero tempora! Fuga rem laudantium officia adipisci praesentium perspiciatis esse.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis vero enim ex sit similique, provident praesentium magni vitae, laudantium reprehenderit animi architecto beatae deleniti rem impedit ut dolor blanditiis porro?
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet pariatur beatae deserunt neque, ullam minima corporis aut sapiente a. Eius aliquam ab dignissimos magnam nemo numquam voluptate, optio minus consequuntur?
+    </p>
+</body>
+</html>
