@@ -20,7 +20,7 @@ i#burger{
     color: white;
     display: block;
     text-align: center;
-    padding: 10px;
+    padding: 7px;
     background-color: rgb(48, 48, 48);
 }
 i#burger:hover{
@@ -28,6 +28,7 @@ i#burger:hover{
     color: rgb(48, 48, 48);
     cursor: pointer;
 }
+
 menu{
     background-color: rgb(48, 48, 48);
     display: none;
